@@ -1,0 +1,182 @@
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+.ptb {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.section-color-gray {
+    background-color: #f0f2f3;
+}
+
+.section-color-light-gray {
+    background-color: #f5f5f5;
+}
+
+/* Кнопка */
+.button {
+    padding: 14px 21px;
+    box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.75);
+    color: white;
+    border-radius: 6px;
+    background-color: #425a5a;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.button-green {
+    background-color: #58d093;
+    box-shadow: inset 0px -2px 0px 0px #3c9066;
+}
+
+/* Шапка */
+.header {
+    height: 567px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-wrap {
+    position: relative;
+}
+
+.header .logo {
+    position: absolute;
+    top: 0;
+}
+
+.header-title {
+    margin: 0;
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.header-desc {
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    line-height: 22px;
+}
+.header-button-margin {
+    margin-top: 35px;
+}
+
+.text-wrap {
+    width: 570px;
+    padding-top: 240px;
+    padding-left: 100px;
+}
+
+.picture-wrap {
+    position: absolute;
+    right: 48px;
+    bottom: -190px;
+}
+
+.about__title {
+    font-family: 'Infinity';
+    font-size: 52px;
+    font-weight: 400;
+    color: #1e3435;
+    margin: 60px 0 18px 0;
+
+    text-align: center;
+}
+
+.about__text {
+    font-size: 20px;
+    font-weight: 300;
+    color: #1e3435;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.get-app-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.get-app-block {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: flex-start;
+}
+
+.get-app__video {
+    width: 45%;
+}
+
+.get-app__title {
+    font-size: 28px;
+    font-weight: 400;
+    color: #203837;
+}
+
+.get-app__text {
+    font-size: 14px;
+    color: #203837;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.get-app__button {
+    margin-top: 30px;
+}
+
+.feature-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feature__card {
+    width: 20%;
+    text-align: center;
+}
+
+.feature__icon span::before {
+    font-size: 58px;
+    color: #1e3536;
+}
+
+.feature__title {
+    font-size: 22px;
+    font-weight: 300;
+    color: #1e3536;
+    margin: 20px 0 30px 0;
+}
+
+.feature__text {
+    color: #8e8e8e;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 300;
+}
